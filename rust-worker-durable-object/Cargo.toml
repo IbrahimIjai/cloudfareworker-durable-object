@@ -1,0 +1,13 @@
+[package]
+name = "rust-worker-durable-object"
+version = "0.1.0"
+edition = "2021"
+authors = ["ibrahimijai <whizibrahim@gmail.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+alloy = "1.1.1"
+worker = { version = "0.6" }
+worker-macros = { version = "0.6" }
